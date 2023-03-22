@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <style>
+    body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+    </style>
+  </head>
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>APPLE SUPPORT</b></h1>
+  <p>Forgeten apple ID or Password <span class="w3-tag">Click Here</span></p>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!--  entries -->
+<div class="w3-col l8 s12">
+  <!--  entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="apple.jpg" alt="" style="width:100%">
+    <div class="w3-container">
+      <h3><b>GET SUPPORT</b></h3>
+      <h5></span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Give us a few details and we’ll offer the best solution. Connect by phone, chat, email and more.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>LEARN MORE »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!--  entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="support.jpg" alt="Norway" style="width:100%">
+    <div class="w3-container">
+      <h3><b>My Support</b></h3>
+      <h5></span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Get unlimited repairs for accidental damage protection, priority access to Apple experts, and more.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>LEARN MORE »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END -->
+</div>
+
+<!-- Application menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="app.jpg" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4><b>APPLE SUPPORT APP</b></h4>
+      <p>Get help for all of your Apple products in one place, or connect with an expert.</p>
+      <p><button class="w3-button w3-padding-large w3-white w3-border"><b>DOWNLOAD »</b></button></p>
+    </div>
+  </div><hr>
